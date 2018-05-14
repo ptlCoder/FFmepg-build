@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}/../../../libavresample
+includedir=/Users/soliloquy/Desktop/test-FFmpeg/ffmpeg-4.0
+
+Name: libavresample
+Description: Libav audio resampling library
+Version: 4.0.0
+Requires:  libavutil >= 56.14.100
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lavresample -lm
+Cflags: -I${includedir}

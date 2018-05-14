@@ -1,0 +1,14 @@
+prefix=/Users/soliloquy/Desktop/test-FFmpeg/ptl-ffmpegLib-x264-ios/arm64
+exec_prefix=${prefix}
+libdir=/Users/soliloquy/Desktop/test-FFmpeg/ptl-ffmpegLib-x264-ios/arm64/lib
+includedir=/Users/soliloquy/Desktop/test-FFmpeg/ptl-ffmpegLib-x264-ios/arm64/include
+
+Name: libavresample
+Description: Libav audio resampling library
+Version: 4.0.0
+Requires: libavutil >= 56.14.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavresample -lm
+Libs.private: 
+Cflags: -I${includedir}
