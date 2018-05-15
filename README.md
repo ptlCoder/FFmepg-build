@@ -7,5 +7,6 @@ FFmepg框架的编译脚本文件，编译后的静态库
 #### x264编入FFmpeg的脚本：`ffmpeg-x264-build-ptl.sh`
 #### aac编入FFmpeg的脚本: `ffmpeg-fdk-aac-build-ptl.sh`
 #### x264编入FFmpeg的静态库： `ptl-ffmpegLib-x264-ios/arm64`目录下
+#### aac编入FFmpeg的静态库：`fdk-aac/thin/arm64`目录下
 #### `FFmpeg工程`: 新建的测试工程 注意项目工程setting里面配置的头文件路径
 #### gas-preprocessor.pl 帮助我们编译FFmpeg框架
