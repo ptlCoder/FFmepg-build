@@ -1,7 +1,5 @@
 static const AVCodec * const codec_list[] = {
-    &ff_mjpeg_encoder,
-    &ff_png_encoder,
-    &ff_libx264_encoder,
+    &ff_aac_encoder,
     &ff_aasc_decoder,
     &ff_aic_decoder,
     &ff_alias_pix_decoder,
@@ -437,6 +435,7 @@ static const AVCodec * const codec_list[] = {
     &ff_pcm_mulaw_at_decoder,
     &ff_qdmc_at_decoder,
     &ff_qdm2_at_decoder,
+    &ff_libfdk_aac_decoder,
     &ff_bintext_decoder,
     &ff_xbin_decoder,
     &ff_idf_decoder,

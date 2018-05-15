@@ -392,13 +392,13 @@
 @c @set config-libcdio no
 @c @set config-librubberband no
 @c @set config-libvidstab no
-@set config-libx264 yes
+@c @set config-libx264 no
 @c @set config-libx265 no
 @c @set config-libxavs no
 @c @set config-libxvid no
 @c @set config-decklink no
 @c @set config-libndi-newtek no
-@c @set config-libfdk-aac no
+@set config-libfdk-aac yes
 @c @set config-openssl no
 @c @set config-libtls no
 @c @set config-gmp no
@@ -515,7 +515,7 @@
 @set config-static yes
 @set config-swscale-alpha yes
 @set config-gpl yes
-@c @set config-nonfree no
+@set config-nonfree yes
 @c @set config-version3 no
 @set config-avcodec yes
 @set config-avdevice yes
@@ -598,7 +598,7 @@
 @set config-huffyuvdsp yes
 @c @set config-huffyuvencdsp no
 @set config-idctdsp yes
-@c @set config-iirfilter no
+@set config-iirfilter yes
 @set config-mdct15 yes
 @set config-intrax8 yes
 @set config-iso-media yes
@@ -608,8 +608,8 @@
 @c @set config-libx262 no
 @set config-llauddsp yes
 @set config-llviddsp yes
-@set config-llvidencdsp yes
-@c @set config-lpc no
+@c @set config-llvidencdsp no
+@set config-lpc yes
 @set config-lzf yes
 @set config-me-cmp yes
 @set config-mpeg-er yes
@@ -1142,7 +1142,7 @@
 @c @set config-libaom-av1-decoder no
 @c @set config-libcelt-decoder no
 @c @set config-libcodec2-decoder no
-@c @set config-libfdk-aac-decoder no
+@set config-libfdk-aac-decoder yes
 @c @set config-libgsm-decoder no
 @c @set config-libgsm-ms-decoder no
 @c @set config-libilbc-decoder no
@@ -1207,7 +1207,7 @@
 @c @set config-jpegls-encoder no
 @c @set config-ljpeg-encoder no
 @c @set config-magicyuv-encoder no
-@set config-mjpeg-encoder yes
+@c @set config-mjpeg-encoder no
 @c @set config-mpeg1video-encoder no
 @c @set config-mpeg2video-encoder no
 @c @set config-mpeg4-encoder no
@@ -1219,7 +1219,7 @@
 @c @set config-pcx-encoder no
 @c @set config-pgm-encoder no
 @c @set config-pgmyuv-encoder no
-@set config-png-encoder yes
+@c @set config-png-encoder no
 @c @set config-ppm-encoder no
 @c @set config-prores-encoder no
 @c @set config-prores-aw-encoder no
@@ -1254,7 +1254,7 @@
 @c @set config-yuv4-encoder no
 @c @set config-zlib-encoder no
 @c @set config-zmbv-encoder no
-@c @set config-aac-encoder no
+@set config-aac-encoder yes
 @c @set config-ac3-encoder no
 @c @set config-ac3-fixed-encoder no
 @c @set config-alac-encoder no
@@ -1354,7 +1354,7 @@
 @c @set config-libwebp-anim-encoder no
 @c @set config-libwebp-encoder no
 @c @set config-libx262-encoder no
-@set config-libx264-encoder yes
+@c @set config-libx264-encoder no
 @c @set config-libx264rgb-encoder no
 @c @set config-libx265-encoder no
 @c @set config-libxavs-encoder no

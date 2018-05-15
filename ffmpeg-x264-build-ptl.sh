@@ -145,6 +145,8 @@ echo "执行到了1"
 #$configure_flags最初配置
 #--extra-cflags
 #--prefix：静态库输出目录
+#--extra-cflags x264的头文件路径
+#--extra-ldflags x264的静态库路径
 TMPDIR=${TMPDIR/%\/} $currentdir/$source/configure \
 --target-os=darwin \
 --arch=$arch \
